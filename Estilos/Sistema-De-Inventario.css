@@ -1,0 +1,40 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+header{
+	height: 100px;
+	width: 100%;
+	background: rgb(238, 235, 235);
+}
+.miContenedor {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cuartoDiv {
+  flex-basis: 100px;
+  padding-right: 5px ;
+}
+
+.tercerDiv{
+
+	margin: 0;
+	padding: 0;
+	text-align: right;
+}
+
+.user{
+	display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+.tex1{
+	padding-left: 100px;
+	margin: 30px;
+
+}
+.tex2{
+	padding-right: 10px;
+}
