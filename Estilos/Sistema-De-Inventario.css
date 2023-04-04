@@ -66,3 +66,64 @@ footer{
 	align-items: center;
 	width: 60%;
 }
+.Diseño{
+    display: flex;
+    flex-direction: column;
+}
+.btn1{
+    background-color: rgb(133, 225, 248);
+    border: 10px;
+    padding: 20px 70px;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 15px;
+}
+.btn1:hover{
+    background-color: rgb(111, 176, 230);
+}
+.btn2{
+    background-color: rgb(133, 225, 248);
+    border: 10px;
+    padding: 20px 77.5px;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 15px;
+}
+.btn2:hover{
+    background-color: rgb(111, 176, 230);
+}
+.btn3{
+    background-color: rgb(133, 225, 248);
+    border: 10px;
+    padding: 20px 75px;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 15px;
+}
+.btn3:hover{
+    background-color: rgb(111, 176, 230);
+}
+.btn4{
+    background-color: rgb(133, 225, 248);
+    border: 10px;
+    padding: 20px 82.5px;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 15px;
+}
+.btn4:hover{
+    background-color: rgb(111, 176, 230);
+}
+table,td{
+    border-collapse: collapse;
+    background-color: #6262f3;
+}
+td{
+    padding: 142px 0.2px;
+    width: 60%;
+    text-align:center;
+}
