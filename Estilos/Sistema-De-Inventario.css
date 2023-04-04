@@ -6,7 +6,7 @@
 header{
 	height: 100px;
 	width: 100%;
-	background: rgb(238, 235, 235);
+	background:#0B2447;
 }
 .miContenedor {
   display: flex;
@@ -31,11 +31,35 @@ header{
   justify-content: flex-end;
   width: 100%;
 }
+.logo{
+	margin-left: 10px;
+	margin-top: 15px;
+}
 .tex1{
 	padding-left: 100px;
 	margin: 30px;
+	color:#A5D7E8;
 
 }
 .tex2{
 	padding-right: 10px;
+	color:#A5D7E8;	
+}
+.arreglar{
+	clear: both;
+}
+footer{
+	justify-content: space-around;
+	text-align: center;
+}
+
+.titulo-contenido{
+	font-size: 30px;
+	text-align: center;
+
+}
+#contenido{
+	float: right;
+	align-items: center;
+	width: 60%;
 }
