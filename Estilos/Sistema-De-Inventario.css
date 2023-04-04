@@ -1,0 +1,132 @@
+
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: #A5D7E8;
+}
+header{
+	height: 100px;
+	width: 100%;
+	background:#0B2447;
+}
+.miContenedor {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cuartoDiv {
+  flex-basis: 100px;
+  padding-right: 5px ;
+}
+
+.tercerDiv{
+
+	margin: 0;
+	padding: 0;
+	text-align: right;
+}
+
+.user{
+	display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+.logo{
+	margin-left: 10px;
+	margin-top: 15px;
+}
+.tex1{
+	padding-left: 100px;
+	margin: 30px;
+	color:#A5D7E8;
+
+}
+.tex2{
+	padding-right: 10px;
+	color:#A5D7E8;	
+}
+.arreglar{
+	clear: both;
+}
+footer{
+	justify-content: space-around;
+	text-align: center;
+}
+
+.titulo-contenido{
+	font-size: 30px;
+	text-align: center;
+
+}
+#contenido{
+	float: right;
+	align-items: center;
+	width: 60%;
+}
+.Diseño{
+    display: flex;
+    flex-direction: column;
+}
+.btn1{
+    background-color: rgb(133, 225, 248);
+    border: 10px;
+    padding: 20px 70px;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 15px;
+}
+.btn1:hover{
+    background-color: rgb(111, 176, 230);
+}
+.btn2{
+    background-color: rgb(133, 225, 248);
+    border: 10px;
+    padding: 20px 77.5px;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 15px;
+}
+.btn2:hover{
+    background-color: rgb(111, 176, 230);
+}
+.btn3{
+    background-color: rgb(133, 225, 248);
+    border: 10px;
+    padding: 20px 75px;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 15px;
+}
+.btn3:hover{
+    background-color: rgb(111, 176, 230);
+}
+.btn4{
+    background-color: rgb(133, 225, 248);
+    border: 10px;
+    padding: 20px 82.5px;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 15px;
+}
+.btn4:hover{
+    background-color: rgb(111, 176, 230);
+}
+table,td{
+    border-collapse: collapse;
+    background-color: #6262f3;
+}
+td{
+    padding: 142px 0.2px;
+    width: 60%;
+    text-align:center;
+}
+a{
+	font-size: 23px;
+}
