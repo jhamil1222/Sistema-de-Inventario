@@ -130,3 +130,31 @@ td{
 a{
 	font-size: 23px;
 }
+.pieDePagina-lado-derecho{
+	float: left;
+    width: 20%;
+}
+.pieDePagina-lado-izquierdo{
+    width: 40%;
+    float: left;
+}
+.pieDePagina-centro{
+    float: left;
+    width: 40%;
+}
+.derechos-de-autor{
+    display: flex;
+    align-items: center;
+    height: 100px;
+}
+#pieDePagina{
+    background-color: #A5D7E8;
+}
+.enlaces{
+    display: flex;
+    align-items: left;
+}
+.titulo{
+    display: flex;
+    align-items: left;
+}
