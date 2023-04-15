@@ -152,9 +152,28 @@ a{
 }
 .enlaces{
     display: flex;
-    align-items: left;
+    align-items: start;
 }
 .titulo{
     display: flex;
-    align-items: left;
+    align-items: start;
+    text-align: start;
+    
+}
+scroll-page{
+  display:flex;
+  overflow-y:scroll;
+  overflow-x:hidden;
+  height: 500px;
+}
+.col-sm-6{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.bg-light{
+    width: 90%;
+}
+.imagen{
+    height: 300px;
+    width: 100%;
 }
